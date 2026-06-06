@@ -597,7 +597,7 @@ function Offer() {
                 <span className="text-4xl sm:text-5xl font-black text-white">R$ 97</span>
                 <span className="text-slate-400 text-xs sm:text-sm">/acesso único</span>
               </div>
-              <p className="text-amber-400 text-xs sm:text-sm font-semibold mt-1.5">ou 12x de R$ 9,74 no cartão</p>
+              <p className="text-amber-400 text-xs sm:text-sm font-semibold mt-1.5">ou 12x de R$ 10,02 no cartão</p>
             </div>
             <div className="space-y-2 sm:space-y-2.5 mb-6 sm:mb-8 flex-grow">
               {[
