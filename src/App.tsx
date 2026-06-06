@@ -304,7 +304,7 @@ function Story() {
           </div>
           <p>
             Em 2023, um grupo de <span className="text-amber-400 font-semibold">fundos de investimento, investidores-anjo e olheiros do Shark Tank</span> decidiu mudar isso.
-            Eles viram um dado absurdo: <span className="text-teal-400 font-semibold">97% dos brasileiros que querem empreender nunca conseguem financiamento.</span>
+            Eles viram um dado absurdo: <span className="text-teal-400 font-semibold">97% dos brasileiros que querem empreender nunca conseguem financiamento. </span>
             Não é que falta ideia. Falta conexão.
           </p>
           <p>
@@ -313,8 +313,8 @@ function Story() {
           </p>
           <p>
             Hoje são <span className="text-amber-400 font-bold">847+ investidores</span> cadastrados.
-            E aqui vem o que mais surpreende: <span className="text-white font-semibold">eles estão preferindo ideias simples.</span>
-            Por quê? Porque negócio simples dá certo mais rápido. Um café, uma loja online, uma clínica — coisas que você já pensou em abrir.
+            E aqui vem o que é mais surpreende: <span className="text-white font-semibold">eles estão preferindo ideias simples. </span>
+            Por quê? Porque negócio simples dão certo mais rápido. Um café, uma loja online, uma clínica — coisas que você já pensou em abrir.
             <span className="text-teal-400 font-semibold"> Você não precisa inventar o Uber. Você precisa de vontade e de alguém que acredite em você.</span>
           </p>
           <div className="glass rounded-2xl p-5 sm:p-6 border-l-4 border-amber-400">
@@ -347,7 +347,7 @@ function HowItWorks() {
           <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4">
             Como Você Vai Receber <span className="text-gradient-gold">Até R$100.000</span>
           </h2>
-          <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto px-2">4 passos entre você é o investimento que pode mudar tudo</p>
+          <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto px-2">4 passos entre você e o investimento que pode mudar tudo</p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6">
           {steps.map((s, i) => (
@@ -380,7 +380,7 @@ function InvestorTypes() {
           <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4">
             Centenas de Investidores <span className="text-teal-400">Prontos Para Investir</span>
           </h2>
-          <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto px-2">Eles estão na plataforma AGORA. Buscando ativamenté o próximo projeto. <span className="text-amber-400 font-semibold">O próximo pode ser o seu.</span></p>
+          <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto px-2">Eles estão na plataforma AGORA. Buscando ativamente o próximo projeto. <span className="text-amber-400 font-semibold">O próximo pode ser o seu.</span></p>
         </div>
         <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
           {types.map((t, i) => (
@@ -421,7 +421,7 @@ function Testimonials() {
           <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4">
             Gente Como Você Que Já <span className="text-gradient-gold">Recebeu Investimento</span>
           </h2>
-          <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto px-2">Sem experiência. Sem contato. Sem sorte. So a ideia e a vontade. <span className="text-amber-400 font-semibold">Eles entraram e conseguiram. Você também pode.</span></p>
+          <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto px-2">Sem experiência. Sem contato. Sem sorte. Só a ideia e a vontade. <span className="text-amber-400 font-semibold">Eles entraram e conseguiram. Você também pode.</span></p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {testimonials.map((t, i) => (
@@ -455,11 +455,11 @@ function Testimonials() {
 function WhyNow() {
   const { ref, isVisible } = useInView();
   const reasons = [
-    { icon: <TrendingUp className="w-5 h-5 sm:w-6 sm:h-6" />, title: 'Janela de Oportunidade', desc: 'O ecossistema de investimentos brasileiro esta em expansão historica. Os investidores estão entrando em massa agora. Quem chega primeiro tem vantagem. Quem demora, perde.' },
-    { icon: <Zap className="w-5 h-5 sm:w-6 sm:h-6" />, title: 'Mais Investidores Que Projetos', desc: 'Hoje existem 3x mais investidores buscando projetos do que empreendedores na plataforma. Isso significa que as chances de você receber lances sao altas. Mas essa proporção vai mudar.' },
-    { icon: <Shield className="w-5 h-5 sm:w-6 sm:h-6" />, title: 'Processo Seguro e Transparente', desc: 'Contratos formais, due diligence, acompanhamento jurídico. Todo o processo e conduzido com seguranca total. Nada de informal — tudo documentado e profissional.' },
-    { icon: <Award className="w-5 h-5 sm:w-6 sm:h-6" />, title: 'Mentoria Inclusa', desc: 'O investidor não só coloca dinheiro — ele coloca experiência. Você recebe orientacao de quem já construiu negócios de sucesso. Dinheiro + mentoria e a combinacao que não falha.' },
-    { icon: <BarChart3 className="w-5 h-5 sm:w-6 sm:h-6" />, title: 'Ideias Simples Sao Valiosas', desc: 'Esqueça que só startup de tecnologia recebe investimento. Restaurante, loja, clínica, salao — negócios tradicionais recebem tanto ou mais que startups. Simples escala mais rápido.' },
+    { icon: <TrendingUp className="w-5 h-5 sm:w-6 sm:h-6" />, title: 'Janela de Oportunidade', desc: 'O ecossistema de investimentos brasileiro está em expansão histórica. Os investidores estão entrando em massa agora. Quem chega primeiro tem vantagem. Quem demora, perde.' },
+    { icon: <Zap className="w-5 h-5 sm:w-6 sm:h-6" />, title: 'Mais Investidores Que Projetos', desc: 'Hoje existem 3x mais investidores buscando projetos do que empreendedores na plataforma. Isso significa que as chances de você receber lances são altas. Mas essa proporção vai mudar.' },
+    { icon: <Shield className="w-5 h-5 sm:w-6 sm:h-6" />, title: 'Processo Seguro e Transparente', desc: 'Contratos formais, due diligence, acompanhamento jurídico. Todo o processo é conduzido com seguranca total. Nada de informal — tudo documentado e profissional.' },
+    { icon: <Award className="w-5 h-5 sm:w-6 sm:h-6" />, title: 'Mentoria Inclusa', desc: 'O investidor não só coloca dinheiro — ele coloca experiência. Você recebe orientação de quem já construiu negócios de sucesso. Dinheiro + mentoria é a combinacao que não falha.' },
+    { icon: <BarChart3 className="w-5 h-5 sm:w-6 sm:h-6" />, title: 'Ideias Simples São Valiosas', desc: 'Esqueça que só startup de tecnologia recebe investimento. Restaurante, loja, clínica, salão — negócios tradicionais recebem tanto ou mais que startups. Simples escala mais rápido.' },
     { icon: <Lock className="w-5 h-5 sm:w-6 sm:h-6" />, title: 'Vagas Limitadas', desc: 'Para manter a proporção investidor/empreendedor e garantir que todo mundo receba lances, cada turma tem vagas limitadas. Quando fecha, só na proxima. E não sabemos quando.' },
   ];
   return (
@@ -471,7 +471,7 @@ function WhyNow() {
           <h2 className="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-white mb-3 sm:mb-4">
             Por Que Você Precisa <span className="text-amber-400">Agir Agora</span>
           </h2>
-          <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto px-2">Cada dia que você espera é um dia que alguém com uma ideia parecida com a sua ta la dentro recebendo o investimento que poderia ser seu</p>
+          <p className="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto px-2">Cada dia que você espera é um dia que alguém com uma ideia parecida com a sua está lá dentro recebendo o investimento que poderia ser seu</p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-6">
           {reasons.map((r, i) => (
@@ -509,7 +509,7 @@ function Faq() {
     { q: 'Que tipo de negócio pode ser financiado?', a: 'Qualquer um. Restaurante, app, loja online, clínica, e-commerce, serviço, SaaS, produto artesanal, franquia. Investidores buscam diversidade e potencial de retorno — não só startup de tecnologia. Ideia simples com boa execução vale tanto quanto ideia complexa.' },
     { q: 'Como funciona o processo de investimento?', a: 'Você apresenta seu projeto. Investidores interessados fazem lances. Você escolhe o melhor. Todo o processo jurídico e de transferência é conduzido com segurança total e transparência completa. Você acompanha cada etapa.' },
     { q: 'E se eu não receber nenhum lance?', a: 'Com 3x mais investidores que empreendedores na plataforma, a chance de não receber lances é mínima. Mas se acontecer, você pode re-apresentar seu projeto. Nosso time te ajuda a otimizar tudo. E com a garantia de 7 dias, você não tem nada a perder.' },
-    { q: 'Por que cobrar R$97 pra acessar?', a: 'Pense assim: R$97 é menos do que você gasta num jantar. E o investimento que filtra quem é sério, mantém a qualidade da plataforma e garante suporte completo. O retorno potencial? Até R$100.000 em financiamento. E 773x de retorno. Alem disso, se não gostar, devolvemos os R$97 em 7 dias.' },
+    { q: 'Por que cobrar R$97 pra acessar?', a: 'Pense assim: R$97 é menos do que você gasta num jantar. É o investimento que filtra quem é sério, mantém a qualidade da plataforma e garante suporte completo. O retorno potencial? Até R$100.000 em financiamento. É 773x de retorno. Além disso, se não gostar, devolvemos os R$97 em 7 dias.' },
     { q: 'Isso é seguro? Como sei que não é golpe?', a: 'Contratos formais, due diligence, acompanhamento jurídico, investidores verificados com dados reais. Transparência total em cada etapa. E a garantia incondicional de 7 dias — se não confiar, pegue seu dinheiro de volta. Zero risco pra você.' },
     { q: 'Quanto tempo leva pra receber o investimento?', a: 'Os primeiros lances chegam em 1-3 semanas em média. O processo completo leva 3-8 semanas. Mas você já começa a ver interesse dos investidores nos primeiros dias.' },
   ];
