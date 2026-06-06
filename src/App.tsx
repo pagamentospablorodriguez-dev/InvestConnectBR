@@ -617,7 +617,7 @@ function Offer() {
                 </div>
               ))}
             </div>
-            <a href="#checkout" className="btn-cta-gold text-slate-900 px-6 sm:px-8 py-3.5 sm:py-4 rounded-full font-black text-base sm:text-lg flex items-center justify-center gap-2 pulse-glow-gold">
+            <a href="https://pay.cakto.com.br/qkqgyqo_915997" className="btn-cta-gold text-slate-900 px-6 sm:px-8 py-3.5 sm:py-4 rounded-full font-black text-base sm:text-lg flex items-center justify-center gap-2 pulse-glow-gold">
               GARANTIR MEU ACESSO POR R$97 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
             </a>
             <p className="text-slate-500 text-[10px] sm:text-xs text-center mt-2.5 sm:mt-3 flex items-center justify-center gap-1">
@@ -697,7 +697,7 @@ function FinalCTA() {
           <span className="text-amber-400 font-semibold"> O próximo pode ser o seu.</span>
         </p>
         <div className="flex flex-col items-center gap-3 sm:gap-4 mb-6 sm:mb-8">
-          <a href="#oferta" className="btn-cta-gold text-slate-900 px-8 sm:px-12 py-4 sm:py-5 rounded-full font-black text-lg sm:text-xl flex items-center gap-2 sm:gap-3 pulse-glow-gold">
+          <a href="https://pay.cakto.com.br/qkqgyqo_915997" className="btn-cta-gold text-slate-900 px-8 sm:px-12 py-4 sm:py-5 rounded-full font-black text-lg sm:text-xl flex items-center gap-2 sm:gap-3 pulse-glow-gold">
             QUERO RECEBER MEU INVESTIMENTO
             <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6" />
           </a>
